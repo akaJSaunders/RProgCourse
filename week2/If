@@ -1,0 +1,19 @@
+If:
+  - If statements the same as in java
+
+
+  if(x > 3){
+    y <- 10
+  }
+  else{
+    y <- 0
+  }
+
+                IS THE SAME AS
+
+  y <- if (x > 3){
+    10
+  }
+  else{
+    0
+  }

@@ -1,0 +1,13 @@
+Factors
+  - Used to represent categorical data
+  - Labeled data
+  - lm() , glm()
+  - Using factors with labels is better than using integers
+    because factors are self describing
+  - "Male" and "Female" is better than 1 and 2
+
+    > x <- factor(c("yes", "yes", "no", "yes", "no"))
+    > table(x)
+    > unclass(x)
+    > x <- factor(c("yes", "yes", "no", "yes", "no"),
+                  levels = c("yes", "no"))

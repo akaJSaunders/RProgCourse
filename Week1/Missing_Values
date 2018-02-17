@@ -1,0 +1,4 @@
+Missing Values
+  - is.na() is used to test objects if they are NA
+  - is.nan() is used to test objects if they are NaN
+  - a NaNvalue is also a NA, but NA is not NaN

@@ -1,0 +1,31 @@
+Functions:
+
+  f <- function(arguments){
+    do something interesting
+  }
+
+  -first class objects
+  - can be passed as arguments to other fnctions
+  - can be nested
+  - the return value of  function is the last expression
+
+  - formals function returns a list of all the formal arguments
+
+Argument Matching:
+  lm(data = mydata, y - x, model = FALSE, 1:100)
+  SAME AS
+  lm(y-x, mydata, 1:100, model = FALSE)
+
+Lazy Evaluation
+
+  f <- function(a,b){
+    a*2
+  }
+  f(2)
+
+
+  -f(2) will not produce an error because b is never used.
+
+  - generic functions use ... so that extra arguments can be passed to methods
+  - ... is used when extending another function and you dont want to copy the entire
+    argument list of the original function

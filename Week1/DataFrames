@@ -1,0 +1,10 @@
+Data Frames
+  - used to store tabular data
+  - specil attribute: row.names
+  - create frames: read.table()   or    read.csv()
+  - can be converted to matrix: data.matrix()
+
+
+    > x <- data.frame(foo = 1:4, far = c(T, T, F, F))
+    > nrow(x)
+    > ncol(x)

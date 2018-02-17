@@ -1,0 +1,21 @@
+Reading Data
+  - read.table    read.csv
+  - realLines
+  - source
+  - dget
+  - load
+  - unserialize
+
+
+use colClasses argument. Specifying this option makes it much faster
+just set colClasses = "numeric" for example
+
+set nrows, helps with memmory usage
+
+I habe 1,500,000 rows and 120 collums all of which are numeric
+
+1,500,000 x 120 x 8 bytes/numeric
+1440000000 bytes
+1440000000/2^30 bytes/MB
+1,374.29MB
+1.34GB

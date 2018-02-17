@@ -1,0 +1,18 @@
+Matrices:
+  - Vectors with a dimension attribute
+
+    > m <- matrix(nrow = 2, ncol = 3)
+    > m
+           [,1]   [,2]   [,3]
+    [1,]    NA     NA     NA
+    [2,]    NA     NA     NA
+
+    > m <- 1:10
+    > m
+    [1] 1 2 3 4 5 6 7 8 9 10
+    > dim(m) <- c(2,5)
+
+cbind-ing and rbind-ing
+
+    > cbind(x, y)
+    > rbind(x, y)

@@ -1,0 +1,9 @@
+For:
+
+  for(i in 1:10){
+    print(i)
+  }
+
+            OR
+
+  for(i in 1:4) print(x[i])

@@ -1,0 +1,19 @@
+Repeat:
+  -Requires an algorithm that will converge
+  - no guarantee it will stop
+
+x0 <- 1
+to1 <- 1e-8
+
+repeat{
+  x1 <- computeEstimate()
+  if(abs(x1- x0) < tol){
+    break
+
+  }else{
+    x0 <- x1
+  }
+}
+
+  - Next isused to skip and iteration of a loop
+  

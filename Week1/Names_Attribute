@@ -1,0 +1,7 @@
+Names:
+  - R objects can also have names
+  - Lists can have names
+  - Matrices can have names
+
+    > x <- 1:3
+    > names(x) <- c("foo", "bar", "nord")

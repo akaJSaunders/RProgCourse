@@ -1,0 +1,22 @@
+Objects:
+  -Character
+  -numeric(real numbers)
+  -interger
+  -complex
+  -logical(true/false)
+  -Vector (can only contain objects of the same class)
+  -List (represented as vector, but can contain objects of different classes)
+
+Numbers:
+  -treated as numeric objects
+  -if you want an integer -> 1L, 2L
+  -inf = infinity
+  -NaN represents underfined value
+
+Atributes:
+  -Names, dimnames
+  -Dimensions (matrices, arrays)
+  -Class
+  -Length
+  -Other user-defined attributes/metadata
+  -Can be accesed using attributes() function

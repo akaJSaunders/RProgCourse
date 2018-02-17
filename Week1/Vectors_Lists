@@ -1,0 +1,36 @@
+Creating Vectors:
+  - c() can be used to create vectors of objects
+
+      x <- c(0.5,0.6)
+      x <- c(TRUE,FALSE)
+      x <- c("a","b","c")
+           ...
+
+  - When different objects are mixed, coercion occurs so that
+    every element in te vector is of the same class
+
+Explicit Coercion:
+  - Object ccan be explicity coerced from one class to another using as.*
+
+      > x <- 0:6
+      > class(x)
+      [1] "integer"
+      > as.numeric(x)
+      [1] 0 1 2 3 4 5 6
+      > as.logical(x)
+      [1] FALSE TRUE TRUE TRUE TRUE TRUE
+      > as.character(x)
+      [1] "0" "1" "2" "3" "4" "5" "6"
+
+  - Nonsensical coersion results in NAs + a warning
+
+Lists
+  - Every element of a list can be of a different class
+
+      > x <- list(1, "a", TRUE, 1 + 4i)
+      > x
+      [[1]]
+      [1] 1
+      [[2]]
+      [1] "a"
+      ...

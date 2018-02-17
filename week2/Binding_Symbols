@@ -1,0 +1,28 @@
+Binding Symbols
+
+> lm <- function(x) (x * x)
+> lm
+function(x) (x*x)
+
+how does it know what lm to call? (standard vs My own)
+
+  1. Searches the global enviroment for a symbol name matching requested
+  2. Searches namespace of each package on the search list
+
+the search list can be found using the search function
+
+the order of the packages on the search list matters!
+
+users can config the order
+
+R has different spaces for non function and function vectors
+might not interfere
+
+Scoping Rules
+
+  -determine how a value is associated with a free variable in a function
+  - Lexical scoping or static scoping. Alternative to dynamic
+  - useful for simplifying statistical calculations
+
+
+  
